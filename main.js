@@ -1,7 +1,7 @@
 // The End Of The Year Date To Countdown To
 // 1000 milliseconds = 1 Second
 
-let countDownDate = new Date("M 31, 2022 23:59:59").getTime();
+let countDownDate = new Date("Mar 31, 2022 23:59:59").getTime();
 // console.log(countDownDate);
 
 let counter = setInterval(() => {
@@ -29,12 +29,12 @@ let counter = setInterval(() => {
 }, 1000);
 
 
-let section = document.querySelector(".Skills");
+let section = document.querySelector(".OurSkills");
 let spans = document.querySelectorAll(".the-progres span");
 
 window.onscroll = function () {
   if (window.scrollY >= section.offsetTop) {
-    console.log("Reached Section Three");
+    console.log("Reached Section OurSkills");
     spans.forEach((span) => {
       span.style.width = span.dataset.width;
     });
