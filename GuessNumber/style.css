@@ -58,6 +58,7 @@ h1 {
 .number {
   border-radius: 72px;
   background-image: url(/starter/avatar1.jpg);
+  background-color: rgb(250, 250, 250);
   color: #333;
   font-size: 7rem;
   width: 21rem;

@@ -26,7 +26,7 @@ let counter = setInterval(() => {
   if (dateDiff < 0) {
     clearInterval(counter);
   }
-}, 1000);
+}, 2000);
 
 
 let section = document.querySelector(".OurSkills");
@@ -40,3 +40,20 @@ window.onscroll = function () {
     });
   }
 };
+
+// let span = document.querySelector(".up")
+
+// window.onscroll = function () {
+//   // if (this.scrollY >= 1000) {
+//   //   span.classList.add("show");
+//   // } else {
+//   //   span.classList.remove("show");
+//   // }
+//   this.screenY >= 1000 ? span.classList.add("show") : span.classList.remove("show");
+// };
+// span.onclick = function () {
+//   window.scrollTo({
+//     top: 0,
+//     behavior: "smooth",
+//   });
+// };
